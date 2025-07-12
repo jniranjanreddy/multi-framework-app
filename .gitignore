@@ -1,0 +1,15 @@
+# Node.js
+express-app/node_modules/
+
+# Python virtual environments
+flask-app/venv/
+fastapi-app/venv/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
