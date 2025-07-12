@@ -33,4 +33,20 @@ python app.py
     source venv/bin/activate
     pip install fastapi uvicorn
 uvicorn main:app --reload
+
+
+
+
+
+# Multi-Framework App
+
+This project contains:
+- **Express.js** app (`express-app/`)
+- **Flask** app (`flask-app/`)
+- **FastAPI** app (`fastapi-app/`)
+
+## Run All
+
+Use `start_all.bat` (Windows) or `start_all.sh` (Linux/macOS) to run all three apps simultaneously.
+
 ```
