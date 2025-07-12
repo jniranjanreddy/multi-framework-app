@@ -9,3 +9,6 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Express server running at http://localhost:${PORT}`);
 });
+
+
+module.exports = app;  // export the app for testing
